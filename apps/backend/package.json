@@ -19,7 +19,7 @@
     "test:force-build": "npm run test -- --build",
     "build:base": "webpack",
     "build:docker": "./docker.sh",
-    "build": "npm run build:docker",
+    "build": "npm run build:base",
     "deploy": "echo \"todo: to be implemented\""
   },
   "author": "karam barakat",
